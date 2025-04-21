@@ -1,9 +1,10 @@
 <?php
 
 /**
-* João está trabalhando em uma mina, tentando retirar o máximo que consegue de diamantes "<>". Ele deve excluir todas as particulas de areia "." do processo e a cada retirada de diamante, novos diamantes poderão se formar. Se ele tem como uma entrada .<...<<..>>....>....>>>., três diamantes são formados. O primeiro é retirado de <..>, resultando  .<...<>....>....>>>. Em seguida o segundo diamante é retirado, restando .<.......>....>>>. O terceiro diamante é então retirado, restando no final .....>>>., sem possibilidade de extração de novo diamante.
-* @param array Array de strings.
-* @return array O novo array ordenado.
+* Mostrar quantos diamantes é possivel extrair de umaa mina.
+* Um diamante é representado por <> e poeira é repesentando por .
+* @param string Representação em strings de uma mina.
+* @return int Quantidade de diamantes na mina
 **/
 function diamantesEAreia($mina) {
 
