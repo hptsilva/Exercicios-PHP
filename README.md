@@ -1,2 +1,2 @@
 # Exercicios-PHP
-Exercícios para treinar lógica de programação em PHP
+Exercícios resolvidos para treinar lógica de programação em PHP
