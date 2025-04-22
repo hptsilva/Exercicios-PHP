@@ -13,9 +13,7 @@ function somarImpares($numeroInicial, $numeroFinal) {
     for ($i = $numeroInicial + 1; $i < $numeroFinal; $i++) {
 
         $resto = $i % 2;
-        if ($resto != 0) {
-            $resultado = $resultado + $i;
-        }
+        ($resto != 0) ? $resultado+=$i : '';
 
     }
 

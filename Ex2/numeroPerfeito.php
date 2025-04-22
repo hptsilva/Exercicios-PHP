@@ -11,9 +11,7 @@ function numeroPerfeito($numero) {
 
     for ($i = 1; $i < $numero; $i++) {
 
-        if (($numero % $i) == 0) {
-            $soma += $i;
-        }
+        ($numero % $i) == 0 ? $soma+= $i : '';
 
     }
 
@@ -37,7 +35,7 @@ casosDeTestes(2, $valorEsperado, $resultado);
 $numero = 5;
 $valorEsperado = False;
 $resultado = numeroPerfeito($numero);
-casosDeTestes(2, $valorEsperado, $resultado);
+casosDeTestes(3, $valorEsperado, $resultado);
 
 function casosDeTestes($caso, $valorEsperado, $valorObtido) {
 
